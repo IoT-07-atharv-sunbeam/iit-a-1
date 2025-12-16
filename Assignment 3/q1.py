@@ -1,0 +1,10 @@
+s = "  Hello IoT World  "
+print("Original:", s)
+print("Upper:", s.upper())
+print("Lower:", s.lower())
+print("Title:", s.title())
+print("Strip:", s.strip())
+print("Replace:", s.replace("IoT", "Python"))
+print("Find 'World':", s.find("World"))
+print("Count 'l':", s.count("l"))
+print("Split:", s.split())
